@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'cloudflare-pages',
 },
+image: {
+  none: {}
+},
   site: {
     identity: {
         type: 'Person'
